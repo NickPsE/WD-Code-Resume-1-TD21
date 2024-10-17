@@ -1,48 +1,46 @@
-.container {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-}
-
-.leftPanel {
-    width: 27%;
-    background-color: #484444;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-.rightPanel {
-    width: 73%;
-  }
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 body {
-    background: rgb(204,204,204); 
-    width: 21cm;
-    height: 29.7cm;
-    margin: 0 auto;
-  }
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(126, 36, 122);
+    margin: 0;
+    padding: 0;
+    background-color: #ffafaf;
+}
 
-page {
-    background: white;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 0.5cm;
-    position: relative;
-  }
+.container {
+    width: 80%;
+    margin: auto;
+    background: rgb(175, 222, 215);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-page[size="A4"] {  
-    width: 21cm;
-    height: 29.7cm; 
-  }
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-@page {
-    size: 21cm 29.7cm;
-    margin: 0mm;
-  }
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    border-bottom: 2px solid #f4529b;
+    padding-bottom: 10px;
+}
+
+.job, .edu {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
